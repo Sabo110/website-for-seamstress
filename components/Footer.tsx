@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-16">
         {/* Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Location */}
           <div className="text-center md:text-left">
             <h3 className="text-lg font-semibold mb-4">Localisation</h3>
@@ -15,27 +15,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
-          <div className="text-center">
-            <h3 className="text-lg font-semibold mb-4">Liens rapides</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition">
-                  Nos Services
-                </a>
-              </li>
-              <li>
-                <a href="#realizations" className="text-gray-400 hover:text-white transition">
-                  Réalisations
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition">
-                  Contactez-nous
-                </a>
-              </li>
-            </ul>
-          </div>
+         
 
           {/* Social Links */}
           <div className="text-center md:text-right">

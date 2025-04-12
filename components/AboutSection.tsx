@@ -38,7 +38,7 @@ export default function AboutSection() {
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-500 rounded-full blur-3xl opacity-30"></div>
 
       {/* Contenu principal */}
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
         {/* Colonne gauche : Titre et image */}
         <div className="flex flex-col space-y-6">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
@@ -65,7 +65,7 @@ export default function AboutSection() {
           </p>
 
           {/* Grille des fonctionnalités */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-2">
             {features.map((feature, index) => (
               <FeatureCard
                 key={index} // Clé unique pour chaque élément
