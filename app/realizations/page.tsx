@@ -1,13 +1,13 @@
 'use client';
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation'; // Permet de récupérer les paramètres de l'URL
 import RealizationCard from '@/components/RealizationCard'; // Composant pour afficher une carte de réalisation
 import Pagination from '@/components/Pagination'; // Composant pour gérer la pagination
 import realizationImage from '@/images/realization.png'; // Image utilisée pour toutes les réalisations
 import { allRealizations as realizations } from '@/data/realizations'; // Import des données des réalisations depuis un fichier externe
 
-export default function RealizationsPage() {
+function RealizationsContent() {
   const searchParams = useSearchParams(); // Récupère les paramètres de l'URL
   const currentPage = parseInt(searchParams.get('page') || '1', 10); // Récupère la page actuelle depuis l'URL ou utilise 1 par défaut
   const itemsPerPage = 2; // Nombre de réalisations affichées par page
@@ -57,6 +57,14 @@ export default function RealizationsPage() {
         />
       </div>
     </section>
+  );
+}
+
+export default function RealizationsPage() {
+  return (
+    <Suspense fallback={<div>Chargement des réalisations...</div>}>
+      <RealizationsContent />
+    </Suspense>
   );
 }
 
