@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative bg-gradient-to-b from-white via-gray-100 to-indigo-100 h-screen"
+      className="relative bg-gradient-to-b from-white via-gray-100 to-indigo-100 md:h-[500px] h-[400px] "
     >
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">

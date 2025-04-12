@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Social Links */}
           <div className="text-center md:text-right">
-            <h3 className="text-lg font-semibold mb-4">Suivez-nous</h3>
+            <h3 className="text-lg font-semibold mb-4">Contactez-nous</h3>
             <div className="flex justify-center md:justify-end space-x-6">
               <a
                 href="https://facebook.com"
