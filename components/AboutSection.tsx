@@ -27,7 +27,6 @@ export default function AboutSection() {
       bgColor: 'bg-yellow-500',
     },
   ];
-  // new Error("Ceci est une erreur de test !");
   return (
     <section
       id="about"
