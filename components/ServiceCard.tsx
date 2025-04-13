@@ -16,7 +16,7 @@ export default function ServiceCard({ icon, title, description, delay }: Service
       className="bg-white shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:scale-105 transition-transform duration-300"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay }}
+      transition={{ duration: 0.3, delay }}
       viewport={{ once: true }}
     >
       {/* Icon */}

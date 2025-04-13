@@ -9,7 +9,7 @@ import { someRealizations as  realizations} from '@/data/realizations';
 
 export default function Realizations() {
   return (
-    <section id="realizations" className="bg-gray-50 py-16 px-6 md:px-16">
+    <section id="realizations" className="bg-gray-100 py-16 px-6 md:px-16">
       <div className='max-w-7xl mx-auto'>
       <motion.div
         className="text-center"

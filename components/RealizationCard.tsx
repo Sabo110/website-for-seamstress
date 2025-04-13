@@ -18,7 +18,7 @@ export default function RealizationCard({ img, alt, title, delay }: RealizationC
       className="relative overflow-hidden rounded-2xl shadow-lg group hover:shadow-2xl transition-shadow duration-300"
       initial={{ opacity: 0, scale: 0.9 }} // Animation initiale
       whileInView={{ opacity: 1, scale: 1 }} // Animation lorsque l'élément est visible
-      transition={{ duration: 0.5, delay }} // Durée et délai de l'animation
+      transition={{ duration: 0.3, delay }} // Durée et délai de l'animation
       viewport={{ once: true }} // L'animation ne se déclenche qu'une seule fois
     >
       {/* Image */}

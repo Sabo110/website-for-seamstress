@@ -6,9 +6,9 @@ import ContactAction from './ContactAction';
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-gradient-to-b from-gray-100 to-gray-200">
+    <section id="contact" className="bg-gradient-to-b from-indigo-50 via-white to-indigo-100">
       {/* Contact Section */}
-      <div className="py-16 px-6 md:px-16 max-w-7xl mx-auto text-center">
+      <div className="py-16 px-6 md:px-16 lg:py-32 max-w-7xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Contactez-nous</h2>
         <p className="text-lg text-gray-600 mb-10">
@@ -41,7 +41,7 @@ export default function Contact() {
         </div>
 
         {/* Working Days */}
-        <div className="relative bg-gradient-to-b from-gray-100 to-gray-200 py-16 px-6 md:px-16 overflow-hidden rounded-2xl shadow-lg">
+        <div className="relative bg-gradient-to-r from-indigo-100 via-white to-indigo-50 py-16 px-6 md:px-16 overflow-hidden rounded-2xl shadow-lg">
           {/* Decorative Background Elements */}
           
 

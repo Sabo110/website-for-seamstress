@@ -29,7 +29,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-neutral-light py-16 px-6 md:px-16">
+    <section id="services" className="bg-neutral-light py-16 px-6 md:px-16 lg:py-32">
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
           className="text-4xl font-heading font-bold text-primary-dark mb-8"

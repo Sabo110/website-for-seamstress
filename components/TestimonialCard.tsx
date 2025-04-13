@@ -17,10 +17,10 @@ interface TestimonialCardProps {
 export default function TestimonialCard({ name, feedback, avatar, delay }: TestimonialCardProps) {
   return (
     <motion.div
-      className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300"
+      className="bg-white border rounded-2xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300"
       initial={{ opacity: 0, y: 50 }} // Animation initiale (invisible et décalée vers le bas)
       whileInView={{ opacity: 1, y: 0 }} // Animation lorsque l'élément devient visible
-      transition={{ duration: 0.5, delay }} // Durée et délai de l'animation
+      transition={{ duration: 0.3, delay }} // Durée et délai de l'animation
       viewport={{ once: true }} // L'animation ne se déclenche qu'une seule fois
     >
       {/* Avatar du client */}

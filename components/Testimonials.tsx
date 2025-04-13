@@ -5,7 +5,7 @@ import { testimonials } from '@/data/testimonials';
 
 export default function Testimonials() {
   return (
-    <section className="py-16 px-6 md:px-16 bg-gradient-to-b from-gray-50 to-gray-100">
+    <section className="py-16 px-6 md:px-16 lg:py-32">
       <div className="max-w-7xl mx-auto text-center">
         {/* Titre de la section */}
         <h2 className="text-4xl font-extrabold text-gray-800 mb-4">
